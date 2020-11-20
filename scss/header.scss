@@ -1,0 +1,39 @@
+header {
+
+    display: flex;
+}
+
+.header_container {
+    background-color: var(--darkGrey);
+    padding: 3rem 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+.nav {
+    margin: 0 3rem;
+}
+
+.nav_items {
+    display: flex;
+}
+
+
+
+// Text
+.title {
+    color: var(--lightYellow);
+}
+
+
+.nav_item {
+    color: var(--lightYellow);
+
+    padding: 5%;
+}
+
+
