@@ -1,9 +1,12 @@
 .hero_container {
     position: relative;
+    display: inline-block;
+
+    .hero_caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
-.hero_caption {
-    position: absolute;
-    top: 80px;
-    right: 0;
-}
