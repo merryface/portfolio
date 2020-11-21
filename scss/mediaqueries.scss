@@ -1,0 +1,36 @@
+// Header
+@media screen and (max-width: 700px) {
+    .nav_items {
+        display: none;
+    }
+
+    .nav_burger  {
+        display: block;
+        width: 40px;
+        margin-left: 20px;
+    }
+
+    .nav {
+        margin: 0;
+    }
+
+    .header_container {
+        padding: 1rem 4rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .header_container {
+        padding: 1rem 1rem;
+    }
+}
+
+
+
+
+// Hero
+@media screen and (max-width: 700px) {
+    .hero_container {
+        height: 29rem;
+    }
+}

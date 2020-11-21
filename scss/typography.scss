@@ -1,15 +1,31 @@
 h1, h2 {
     font-family: 'Poppins', sans-serif;
+    color: var(--darkGrey);
 }
 
 p, h3, h4, a  {
     font-family: 'Arimo', sans-serif;
+    color: var(--darkGrey);
 }
 
 h1 {
     font-size: 2.5rem;
+    color: var(--darkGrey);
 }
 
 p {
     font-size: 1.5rem;
+    color: var(--darkGrey);
+}
+
+
+// Hero
+.hero_caption {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.5rem;
+}
+
+.emphasis {
+    font-family: 'Poppins', sans-serif;
+    color: var(--red);
 }

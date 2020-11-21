@@ -1,17 +1,20 @@
 header {
-
+    position: fixed;
     display: flex;
+    width: 100%;
 }
 
 .header_container {
     background-color: var(--darkGrey);
-    padding: 3rem 5rem;
+    padding: 1.5rem 4rem;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     width: 100%;
+
+    filter: drop-shadow(0 2mm 1mm rgba(0, 0, 0, 0.7));
 }
 
 .nav {
@@ -32,8 +35,9 @@ header {
 
 .nav_item {
     color: var(--lightYellow);
-
     padding: 5%;
 }
 
-
+.nav_burger {
+    display: none;
+}
