@@ -4,9 +4,20 @@
 
     .hero_caption {
         position: absolute;
-        top: 50%;
+        left: 10%;
+        top: 30%;
+
+        text-align: center;
+    }
+
+    .hero_reactiveDemo {
+        position: absolute;
         left: 50%;
-        transform: translate(-50%, -50%);
+        top: 25%;
+
+
+        display: inline;
+        width: 40%;
     }
 }
 
