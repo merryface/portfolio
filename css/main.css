@@ -188,6 +188,16 @@ header {
 .projects_name {
   margin: 1rem; }
 
+footer {
+  padding: 3rem;
+  background-color: var(--darkGrey);
+  display: flex;
+  justify-content: center; }
+
+.copyright-text {
+  color: var(--lightYellow);
+  font-size: 1rem; }
+
 @media screen and (max-width: 700px) {
   .nav_items {
     display: none; }
