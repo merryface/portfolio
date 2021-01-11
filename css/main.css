@@ -117,10 +117,7 @@ header {
   padding: 6%;
   font-size: 1.5rem; }
 
-.nav_burger {
-  display: none; }
-
-.nav_item:hover, .nav_burger:hover {
+.nav_item:hover {
   cursor: pointer; }
 
 .hero_container {
@@ -205,14 +202,12 @@ footer {
 @media screen and (max-width: 700px) {
   .nav_items {
     display: none; }
-  .nav_burger {
-    display: block;
-    width: 40px;
-    margin-left: 20px; }
   .nav {
     margin: 0; }
   .header_container {
-    padding: 1rem 4rem; } }
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: center; } }
 
 @media screen and (max-width: 420px) {
   .header_container {
