@@ -18,7 +18,14 @@ p {
     color: var(--darkGrey);
 }
 
+// ===============================================
+// Titles
+.about_title, .projects_title {
+    font-size: calc(40px + 1vw);
+    margin: 2.5rem 0 1.5rem 0;
+}
 
+// ===============================================
 // Hero
 .hero_caption {
     font-family: 'Arimo', sans-serif;
@@ -31,15 +38,19 @@ p {
     font-size: calc(1.6rem + 1vw);
 }
 
-// About
-.about_title {
-    font-size: calc(40px + 1vw);
-    margin: 2.5rem 0 1.5rem 0;
-}
+// ===============================================
+// Section title
 .about_skillTitle {
+    font-size: calc(32px + 1vw);
+}
+
+.projects_name {
     font-size: calc(32px + 1vw);
 }
 
 .about_skillText {
     font-size: calc(24px + 1vw);
 }
+
+// ===============================================
+// Projects

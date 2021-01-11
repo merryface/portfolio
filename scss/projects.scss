@@ -1,0 +1,23 @@
+.projects_container {
+    width: 60%;
+    margin: auto;
+}
+
+.projects_project {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.projects_thumbnail {
+    object-fit: cover;
+    width: 30rem;
+    height: 15rem;
+
+    border-radius: 10px;
+
+    margin: 0;
+}
+
+.projects_name {
+    margin: 1rem;
+}
