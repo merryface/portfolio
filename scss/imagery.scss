@@ -8,3 +8,11 @@
     width: 100%;
     
 }
+
+.about_skillThumbnail {
+    display: flex;
+
+    img {
+        flex-direction: row-reverse;
+    }
+}
