@@ -129,7 +129,8 @@ header {
 
 .contact_container {
   width: 60%;
-  margin: auto; }
+  margin: auto;
+  margin-top: 8rem; }
   .contact_container .icon {
     width: 70px; }
 
