@@ -72,7 +72,7 @@ p {
 
 .about_title {
   font-size: calc(40px + 1vw);
-  margin: 1rem; }
+  margin: 2.5rem 0 1.5rem 0; }
 
 .about_skillTitle {
   font-size: calc(32px + 1vw); }
@@ -124,11 +124,6 @@ header {
   object-fit: cover;
   width: 100%; }
 
-.about_skillThumbnail {
-  display: flex; }
-  .about_skillThumbnail img {
-    flex-direction: row-reverse; }
-
 .hero_container {
   position: relative;
   display: inline-block; }
@@ -147,19 +142,17 @@ header {
 .about_container {
   width: 60%;
   margin: auto; }
-  .about_container .about_skill {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    margin: 20px; }
-  .about_container .about_skillThumbnail {
-    grid-area: 1 / 1 / 3 / 2; }
-  .about_container .about_skillTitle2 {
-    grid-area: 1 / 2 / 2 / 3; }
-  .about_container .about_skillText {
-    grid-area: 2 / 2 / 3 / 3; }
+  .about_container .about_skills {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between; }
+    .about_container .about_skills .about_skill {
+      display: flex;
+      align-items: center;
+      margin-bottom: 4rem; }
+      .about_container .about_skills .about_skill .about_skillThumbnail {
+        margin-right: 2rem; }
 
 @media screen and (max-width: 700px) {
   .nav_items {
@@ -200,3 +193,29 @@ header {
 @media screen and (max-width: 500px) {
   .hero_container .hero_reactiveDemo {
     display: none; } }
+
+@media screen and (max-width: 1160px) {
+  .about_container h3 {
+    font-size: calc(24px + 1vw); }
+  .about_container p {
+    font-size: calc(14px + 1vw); } }
+
+@media screen and (max-width: 660px) {
+  .about_container {
+    width: 90%; }
+    .about_container h3 {
+      font-size: calc(18px + 1vw); }
+    .about_container h2 {
+      font-size: calc(24px + 1vw); }
+    .about_container p {
+      font-size: calc(12px + 1vw); }
+    .about_container img {
+      width: 80px; } }
+
+@media screen and (max-width: 490px) {
+  .about_container h3 {
+    font-size: calc(14px + 1vw); }
+  .about_container p {
+    font-size: calc(10px + 1vw); }
+  .about_container .about_skills .about_skill {
+    margin-bottom: 2rem; } }

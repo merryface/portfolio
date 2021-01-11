@@ -2,25 +2,20 @@
     width: 60%;
     margin: auto;
 
-    .about_skill {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+    .about_skills {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: space-between;
 
-        margin: 20px;
+        .about_skill {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4rem;
+
+            .about_skillThumbnail {
+                margin-right: 2rem;
+            }
         }
-    
-    .about_skillThumbnail {
-        grid-area: 1 / 1 / 3 / 2;
-    }
-
-    .about_skillTitle2 {
-        grid-area: 1 / 2 / 2 / 3;
-    }
-
-    .about_skillText {
-        grid-area: 2 / 2 / 3 / 3;
     }
 }
