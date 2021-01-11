@@ -114,10 +114,14 @@ header {
 
 .nav_item {
   color: var(--lightYellow);
-  padding: 5%; }
+  padding: 6%;
+  font-size: 1.5rem; }
 
 .nav_burger {
   display: none; }
+
+.nav_item:hover, .nav_burger:hover {
+  cursor: pointer; }
 
 .hero_container {
   width: 100%; }
@@ -285,3 +289,6 @@ footer {
 .contact_title {
   font-size: 2rem;
   margin: 2rem; }
+
+a:link {
+  text-decoration: none; }
