@@ -54,31 +54,31 @@ p, h3, h4, a {
   color: var(--darkGrey); }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: calc(32px + 1vw);
   color: var(--darkGrey); }
 
 p {
-  font-size: 1.5rem;
+  font-size: calc(24px + 1vw);
   color: var(--darkGrey); }
 
 .hero_caption {
   font-family: 'Arimo', sans-serif;
-  font-size: 2.5rem; }
+  font-size: calc(1.3rem + 1vw); }
 
 .emphasis {
   font-family: 'Lobster', sans-serif;
   color: var(--red);
-  font-size: 2.7rem; }
+  font-size: calc(1.6rem + 1vw); }
 
 .about_title {
-  font-size: 2.5rem;
+  font-size: calc(40px + 1vw);
   margin: 1rem; }
 
 .about_skillTitle {
-  font-size: 2rem; }
+  font-size: calc(32px + 1vw); }
 
 .about_skillText {
-  font-size: 1.5rem; }
+  font-size: calc(24px + 1vw); }
 
 :root {
   --darkGrey: rgb(64, 68, 89);
@@ -97,14 +97,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  filter: drop-shadow(0 2mm 1mm rgba(0, 0, 0, 0.7)); }
+  width: 100%; }
 
 .nav {
   margin: 0 3rem; }
 
 .nav_items {
-  display: flex; }
+  display: flex;
+  padding-right: 3rem; }
 
 .title {
   color: var(--lightYellow); }
@@ -177,7 +177,7 @@ header {
   .header_container {
     padding: 1rem 1rem; } }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1360px) {
   .hero_container .hero_caption {
     font-size: 1.7rem;
     left: 10%;
@@ -189,20 +189,14 @@ header {
     top: 25%;
     width: 35%; } }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1080px) {
   .hero_container .hero_reactiveDemo {
-    display: none; }
+    left: 25%;
+    width: 50%;
+    top: 15%; }
   .hero_container .hero_caption {
-    font-size: 1.3rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%); }
-    .hero_container .hero_caption .emphasis {
-      font-size: 1.5rem; } }
+    display: none; } }
 
 @media screen and (max-width: 500px) {
-  .hero_container .hero_caption {
-    font-size: 1rem;
-    transform: translate(-50%, -100%); }
-    .hero_container .hero_caption .emphasis {
-      font-size: 1.2rem; } }
+  .hero_container .hero_reactiveDemo {
+    display: none; } }

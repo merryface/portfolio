@@ -14,7 +14,7 @@ header {
 
     width: 100%;
 
-    filter: drop-shadow(0 2mm 1mm rgba(0, 0, 0, 0.7));
+    // filter: drop-shadow(100mm 1000mm 100mm rgba(0, 0, 0, 0.7));
 }
 
 .nav {
@@ -23,6 +23,7 @@ header {
 
 .nav_items {
     display: flex;
+    padding-right: 3rem;
 }
 
 
