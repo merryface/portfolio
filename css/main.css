@@ -127,6 +127,22 @@ header {
   object-fit: cover;
   width: 100%; }
 
+.contact_container {
+  width: 60%;
+  margin: auto; }
+  .contact_container .icon {
+    width: 70px; }
+
+.icon_container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 5rem; }
+
+.contact_title {
+  font-size: 2rem;
+  margin: 2rem; }
+
 .hero_container {
   position: relative;
   display: inline-block; }
