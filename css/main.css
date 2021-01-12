@@ -189,6 +189,14 @@ header {
 .projects_name {
   margin: 1rem; }
 
+.projects_description {
+  font-size: 1rem;
+  width: 70%;
+  margin: auto; }
+
+.link {
+  color: var(--lightYellow); }
+
 footer {
   padding: 3rem;
   background-color: var(--darkGrey);
