@@ -2,7 +2,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/merryface/portfolio?logo=GitHub&style=for-the-badge)
 
 ## What is This Website?<br>
-Welcome to the repo that contains the code for [my portfolio](https://merryface.github.io/portfolio/). It's a simple scrolling site which informs the user of my web development skill set, gives them examples of my work (hosted here on GitHub), and several ways to contact me.
+Welcome to the repo that contains the code for [my portfolio](http://www.merryfacedev.co.uk/). It's a simple scrolling site which informs the user of my web development skill set, gives them examples of my work (hosted here on GitHub), and several ways to contact me.
 
 
 ## Gulp
